@@ -11,17 +11,17 @@ Das Projekt kommt von der DrainX GmbH, einem Hamburger Rohrreinigungsbetrieb. Da
 
 Ein zentraler Schwerpunkt ist der Wettbewerb zwischen Betrieben: für die eigene Firma antreten und sich mit anderen messen. In der aktuellen Testversion sind der Bereich „Fahrer & Firma“ sowie die Meistertafel mit den Ansichten „Gesamt“, „Meine Firma“ und „Betriebe“ vorhanden. Die konkrete Firmenwertung wird im Test erprobt.
 
-Gully Gustav befindet sich in einer geschlossenen Testphase. Eine Bewerbung als Tester ist über spiel.gullygustav.de/test möglich; die Anmeldung bedeutet keine sofortige Freischaltung. Ein Veröffentlichungstermin ist noch nicht angekündigt.
+Gully Gustav befindet sich in einer geschlossenen Testphase. Tester melden sich über spiel.gullygustav.de/test an und spielen direkt danach im Browser mit. Ein Veröffentlichungstermin ist noch nicht angekündigt.
 
 FAKTEN
 Projekt: Gully Gustav
 Anbieter: DrainX GmbH, Hamburg
 Status: Geschlossene Testphase
-Aktueller Zugang: Browser, nach Einladung
+Aktueller Zugang: Browser, nach Anmeldung
 Sprache: Deutsch
 Website: https://gullygustav.de
 Presse: https://gullygustav.de/presse/
-Tester-Bewerbung: https://spiel.gullygustav.de/test
+Tester-Anmeldung: https://spiel.gullygustav.de/test
 TikTok: https://www.tiktok.com/@gullygustav
 Kontakt: support@gullygustav.de
 
