@@ -65,6 +65,9 @@
   .knopf.leise { background:var(--papier); }
   .knopf:hover { transform:translateY(1px); box-shadow:0 3px 0 var(--tinte); }
   h2.abschnitt { margin:34px 0 10px; font:900 26px/1.2 system-ui,sans-serif; text-transform:uppercase; text-shadow:0 3px 0 var(--tinte); }
+  .videos { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr)); gap:14px; }
+  .videos figure { margin:0; } .videos video { width:100%; height:auto; aspect-ratio:9/16; border-radius:14px; background:#0f2a34; display:block; }
+  .videos figcaption { margin-top:6px; font-size:15px; font-weight:700; text-align:center; color:#cfe7ea; }
   .galerie { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr)); gap:14px; }
   .galerie figure { margin:0; border:4px solid var(--tinte); border-radius:14px; overflow:hidden; background:var(--tinte); box-shadow:0 6px 0 var(--tinte); }
   .galerie img { display:block; width:100%; height:auto; aspect-ratio:16/9; object-fit:cover; }
@@ -85,9 +88,9 @@
       <h1>Gully Gustav</h1>
       <p class="unter">Das Rohrreinigungs-Spiel: Rohr frei, Keller trocken – fräs dich durch Fett &amp; Wurzeln und fahr um die Wette.</p>
       <div class="aktionen">
-        <a class="knopf gold" href="https://spiel.gullygustav.de/test">Jetzt kostenlos testen</a>
+        <a class="knopf gold" href="https://spiel.gullygustav.de/?zugang=MN2T-8TGQ">Jetzt kostenlos spielen</a>
         <a class="knopf" href="https://www.youtube.com/@gullygustavspiel" rel="me">Videos auf YouTube</a>
-        <a class="knopf leise" href="#bilder">Bilder ansehen</a>
+        <a class="knopf leise" href="#sogehts">So geht's (Video)</a>
       </div>
     </div>
   </div>
@@ -95,7 +98,7 @@
 <main>
   <section class="karte hinweis">
     <h2>Testphase läuft</h2>
-    <p>Gully Gustav ist in der Testphase und im Browser spielbar – am Handy und am PC. Mit Spitzname und E-Mail anmelden, danach geht es sofort los. Die Android-App folgt im Play Store, eine englische Version auf Spieleportalen.</p>
+    <p>Gully Gustav ist in der Testphase und im Browser spielbar – am Handy und am PC, <strong>ohne Anmeldung</strong>: <a href="https://spiel.gullygustav.de/?zugang=MN2T-8TGQ" style="color:var(--tinte)">Link antippen</a> und los. Du bekommst einen Rohr-Namen und kannst ihn jederzeit ändern. Die Apps für Android und iPhone folgen, eine englische Version läuft bereits auf CrazyGames.</p>
     <p>Fragen oder Fehler gefunden? <a href="mailto:support@gullygustav.de" style="color:var(--tinte)">support@gullygustav.de</a></p>
   </section>
 
@@ -105,6 +108,13 @@
     <section class="karte"><h2>Das Wasser wartet nicht</h2><p>Hinter jeder Verstopfung staut sich das Abwasser. Bist du zu langsam, läuft der Keller voll – und die Schicht ist vorbei.</p></section>
     <section class="karte"><h2>Werkstatt &amp; Kisten</h2><p>Rüste deine Maschine aus, baue Module aus Schrott und öffne Feierabend-Kisten. <a href="recht/#kisten" style="color:#165979">Chancen ansehen</a></p></section>
     <section class="karte"><h2>Rohr-Rennen</h2><p>Fahr live gegen bis zu sieben andere, lade Freunde per Link ein und steig in der Liga von Bronze bis Meister auf.</p></section>
+  </div>
+
+  <h2 class="abschnitt" id="sogehts">So geht's – in drei kurzen Videos</h2>
+  <div class="videos">
+    <figure><video controls playsinline preload="none" poster="assets/videos/tut-einstieg.jpg" width="1080" height="1920"><source src="assets/videos/tut-einstieg.mp4" type="video/mp4"></video><figcaption>Teil 1: Dein Einstieg</figcaption></figure>
+    <figure><video controls playsinline preload="none" poster="assets/videos/tut-koepfe.jpg" width="1080" height="1920"><source src="assets/videos/tut-koepfe.mp4" type="video/mp4"></video><figcaption>Teil 2: Der richtige Kopf</figcaption></figure>
+    <figure><video controls playsinline preload="none" poster="assets/videos/tut-riser.jpg" width="1080" height="1920"><source src="assets/videos/tut-riser.mp4" type="video/mp4"></video><figcaption>Teil 3: Riser &amp; Flug über die Dächer</figcaption></figure>
   </div>
 
   <h2 class="abschnitt" id="bilder">So sieht's aus</h2>
