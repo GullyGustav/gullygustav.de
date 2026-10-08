@@ -1,0 +1,101 @@
+/* Gully Gustav - Presse & Support. Statisch, ohne Skripte, ohne externe Ressourcen. */
+:root{
+  --nacht:#0b2742; --tief:#123a63; --karte:#f7efd6; --karte-rand:#d9c88f;
+  --gold:#ffc933; --orange:#f58a1f; --text:#f2f6fb; --dunkel:#16222e; --wasser:#38b6c9;
+  --max:1080px; --rad:14px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--nacht);background-image:linear-gradient(180deg,#0b2742 0,#0e3158 520px,#0b2742 100%);
+  color:var(--text);font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;min-height:100vh}
+img,video{max-width:100%;height:auto;display:block}
+a{color:var(--gold);text-underline-offset:3px}
+a:hover{color:#fff}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:4px}
+.huelle{max-width:var(--max);margin:0 auto;padding:0 16px}
+.skip{position:absolute;left:-999px;top:0;background:var(--gold);color:#000;padding:8px 12px;z-index:9}
+.skip:focus{left:8px;top:8px}
+header.kopf{padding:14px 0;border-bottom:1px solid rgba(255,255,255,.12)}
+header.kopf .huelle{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center;justify-content:space-between}
+.marke{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none;font-weight:800;letter-spacing:.02em}
+.marke img{width:40px;height:40px;border-radius:9px}
+nav.haupt{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:15px}
+nav.haupt a{color:var(--text);text-decoration:none;padding:6px 0;border-bottom:2px solid transparent}
+nav.haupt a:hover,nav.haupt a[aria-current]{border-color:var(--gold);color:#fff}
+.held{padding:44px 0 30px;display:grid;gap:26px;grid-template-columns:1fr;align-items:center}
+.held h1{font:900 clamp(2rem,6.5vw,3.6rem)/1.05 "Arial Black",Impact,system-ui,sans-serif;margin:.2em 0;font-style:italic;color:#fff;
+  text-shadow:3px 3px 0 #b8861b;text-transform:uppercase;letter-spacing:.005em}
+.held .lead{font-size:clamp(1.05rem,2.6vw,1.3rem);max-width:34em;color:#dbe8f5}
+.held img.logo{width:min(380px,80%)}
+.etikett{display:inline-block;background:var(--orange);color:#1b1206;font-weight:800;border-radius:8px;padding:5px 12px;font-size:.88rem;letter-spacing:.04em;text-transform:uppercase}
+.knopfreihe{display:flex;flex-wrap:wrap;gap:12px;margin:18px 0 0}
+.knopf{display:inline-block;background:var(--gold);color:#1b1206;font-weight:800;text-decoration:none;border-radius:10px;padding:12px 18px;border:2px solid #1b1206;box-shadow:0 3px 0 #1b1206}
+.knopf:hover{color:#1b1206;background:#ffd95e}
+.knopf.aus{background:transparent;color:#cfe0f1;border:2px dashed rgba(255,255,255,.4);box-shadow:none;font-weight:600}
+.knopf.zweit{background:transparent;color:#fff;border-color:rgba(255,255,255,.6);box-shadow:none}
+section{padding:34px 0}
+section>.huelle>h2,section h2{font:900 clamp(1.5rem,4.4vw,2.1rem)/1.15 "Arial Black",Impact,system-ui,sans-serif;font-style:italic;text-transform:uppercase;color:var(--gold);margin:0 0 14px}
+section h3{margin:1.2em 0 .3em;font-size:1.1rem;color:#fff}
+.karte{background:var(--karte);color:var(--dunkel);border:3px solid var(--karte-rand);border-radius:var(--rad);padding:20px}
+.karte a{color:#7a4a00}
+.karte a:hover{color:#000}
+.raster{display:grid;gap:16px;grid-template-columns:1fr}
+.fakten{display:grid;grid-template-columns:1fr;gap:0;margin:0}
+.fakten div{display:grid;grid-template-columns:1fr;padding:10px 0;border-bottom:1px solid rgba(22,34,46,.18)}
+.fakten dt{font-weight:800;font-size:.85rem;letter-spacing:.05em;text-transform:uppercase;color:#6a4b00}
+.fakten dd{margin:0}
+.merkmal{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-radius:var(--rad);padding:16px}
+.merkmal h3{margin:0 0 6px;color:var(--gold)}
+.merkmal p{margin:0}
+.galerie{display:grid;gap:18px;grid-template-columns:1fr}
+.galerie figure{margin:0;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);border-radius:var(--rad);overflow:hidden}
+.galerie figcaption{padding:12px 14px;font-size:.95rem}
+.galerie figcaption strong{display:block;color:#fff}
+.galerie .dl{display:inline-block;margin-top:6px;font-size:.9rem}
+.logos{display:grid;gap:16px;grid-template-columns:1fr}
+.logos figure{margin:0;border-radius:var(--rad);padding:18px;display:flex;flex-direction:column;gap:10px;align-items:flex-start}
+.logos .hell{background:#e8eef5;color:var(--dunkel)}
+.logos .dunkel{background:#0a1d31;color:var(--text);border:1px solid rgba(255,255,255,.2)}
+.logos img{max-height:150px;width:auto;border-radius:10px}
+.logos .hell a{color:#7a4a00}
+video{width:100%;border-radius:var(--rad);background:#000}
+.zitat{border-left:5px solid var(--gold);padding:4px 0 4px 16px;font-size:1.15rem;font-style:italic;margin:18px 0}
+.hinweis{background:rgba(255,201,51,.12);border:1px solid rgba(255,201,51,.5);border-radius:var(--rad);padding:14px 16px}
+details{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.18);border-radius:var(--rad);margin:0 0 12px}
+details[open]{background:rgba(255,255,255,.1)}
+summary{cursor:pointer;padding:14px 16px;font-weight:700;list-style:none;display:flex;gap:10px;justify-content:space-between;align-items:center;min-height:48px}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";font-size:1.5rem;line-height:1;color:var(--gold);flex:none}
+details[open] summary::after{content:"\2212"}
+details .antwort{padding:0 16px 16px}
+details .antwort p{margin:.5em 0}
+details .antwort ol,details .antwort ul{padding-left:1.3em;margin:.5em 0}
+code,kbd{background:rgba(0,0,0,.28);border-radius:5px;padding:1px 6px;font-size:.92em}
+.themen{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px;padding:0;list-style:none}
+.themen a{display:inline-block;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);border-radius:999px;padding:7px 14px;text-decoration:none;color:#fff;font-size:.95rem}
+.themen a:hover{background:var(--gold);color:#1b1206}
+/* Kaeufe-Schalter: <body data-kaeufe="aus"> (Start ohne Kaeufe) oder "an" (Diamanten-Kauf aktiv) */
+body[data-kaeufe="aus"] .nur-kaeufe{display:none!important}
+body[data-kaeufe="an"] .ohne-kaeufe{display:none!important}
+footer.fuss{margin-top:30px;padding:26px 0 40px;border-top:1px solid rgba(255,255,255,.14);font-size:.93rem;color:#bcd0e4}
+footer.fuss .huelle{display:flex;flex-wrap:wrap;gap:10px 24px;justify-content:space-between}
+footer.fuss ul{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:6px 18px}
+@media (min-width:640px){
+  .raster.zwei,.galerie,.logos{grid-template-columns:1fr 1fr}
+  .raster.drei{grid-template-columns:1fr 1fr}
+  .fakten div{grid-template-columns:220px 1fr;gap:16px}
+}
+@media (min-width:900px){
+  .held{grid-template-columns:1.25fr 1fr}
+  .raster.drei{grid-template-columns:repeat(3,1fr)}
+  .logos{grid-template-columns:repeat(3,1fr)}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{
+  body{background:#fff;color:#000;font-size:11pt}
+  a{color:#000}
+  header.kopf nav,.knopfreihe,video,.skip{display:none}
+  .karte,.merkmal,details{border:1px solid #888;background:#fff;color:#000}
+  details .antwort{display:block}
+  section>.huelle>h2,section h2,.held h1{color:#000;text-shadow:none}
+}
