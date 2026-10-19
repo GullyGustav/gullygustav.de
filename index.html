@@ -47,6 +47,8 @@
   a { color:var(--gold); }
   img { max-width:100%; }
   .held { max-width:1100px; margin:0 auto; }
+  .vormerkleiste { margin:14px 16px; padding:12px 16px; display:flex; flex-wrap:wrap; gap:12px; align-items:center; justify-content:space-between; border:3px solid var(--tinte); border-radius:14px; background:var(--orange); color:var(--tinte); }
+  .vormerkleiste p { margin:0; font-weight:800; }
   .held > img.banner { display:block; width:100%; height:auto; aspect-ratio:1024/500; }
   .held-inhalt { max-width:980px; width:100%; margin:0 auto; padding:18px 16px 4px; display:flex; gap:18px; align-items:center; }
   .held-inhalt img { width:96px; height:96px; border-radius:22px; border:4px solid var(--tinte); box-shadow:0 6px 0 var(--tinte); flex:none; }
@@ -81,6 +83,10 @@
 </head>
 <body>
 <header class="held">
+  <aside class="vormerkleiste" aria-label="Gully Gustav vormerken">
+    <p>App-Start geplant: 29.10.</p>
+    <a class="knopf gold" href="https://play.google.com/store/apps/details?id=de.drainx.gullygustav">Android jetzt vormerken</a>
+  </aside>
   <img class="banner" src="assets/vorstellung-1024x500.png" alt="Gully Gustav – Ab in die Rohre!" width="1024" height="500">
   <div class="held-inhalt">
     <img src="assets/symbol-192.png" alt="Gully Gustav Symbol" width="96" height="96">
@@ -88,7 +94,7 @@
       <h1>Gully Gustav</h1>
       <p class="unter">Das Rohrreinigungs-Spiel: Rohr frei, Keller trocken – fräs dich durch Fett &amp; Wurzeln und fahr um die Wette.</p>
       <div class="aktionen">
-        <a class="knopf gold" href="#launch">App-Start geplant: 29.10.</a>
+        <a class="knopf gold" href="https://play.google.com/store/apps/details?id=de.drainx.gullygustav">Android jetzt vormerken</a>
         <a class="knopf" href="https://www.youtube.com/@gullygustavspiel" rel="me">Videos auf YouTube</a>
         <a class="knopf leise" href="#sogehts">So geht's (Video)</a>
       </div>
@@ -97,8 +103,8 @@
 </header>
 <main>
   <section class="karte hinweis" id="launch">
-    <h2>Die Spieltestphase ist beendet</h2>
-    <p>Danke fürs Testen! Der App-Start für Android und iPhone ist für den <strong>29. Oktober 2026</strong> geplant. Der Browser-Spielzugang bleibt bis dahin geschlossen.</p>
+    <h2>Jetzt für den App-Start vormerken</h2>
+    <p>Die Spieltestphase ist beendet – danke fürs Testen! Der App-Start für Android und iPhone ist für den <strong>29. Oktober 2026</strong> geplant. Der Browser-Spielzugang bleibt bis dahin geschlossen.</p>
     <p><a class="knopf gold" href="https://play.google.com/store/apps/details?id=de.drainx.gullygustav">Android bei Google Play vormerken</a></p>
     <p>Für Deutschland, Österreich und die Schweiz. Infos zum iPhone-Start folgen hier.</p>
     <p>Fragen oder Fehler gefunden? <a href="mailto:support@gullygustav.de" style="color:var(--tinte)">support@gullygustav.de</a></p>
