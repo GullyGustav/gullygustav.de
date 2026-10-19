@@ -1,4 +1,4 @@
-GULLY GUSTAV - ROHRREINIGUNG | Pressefakten (Stand 08.10.2026)
+GULLY GUSTAV - ROHRREINIGUNG | Pressefakten (Stand 19.10.2026)
 
 Kurz: Ein echter Rohrreinigungsbetrieb aus Hamburg baut sein eigenes Handyspiel. Du fährst als Rohrreiniger Gustav durchs Abwasserrohr, löst Fett, Wurzeln, Feuchttücher, Haare und Kalk und fährst Rohr-Rennen gegen bis zu sieben andere.
 
@@ -6,7 +6,7 @@ Titel:        Gully Gustav - Rohrreinigung
 Entwickler:   DrainX GmbH, Großlohering 64a, 22143 Hamburg
 Plattformen:  Android (Google Play, ab Android 7.0), iPhone (App Store, ab iOS 15), Querformat
 Start:        geplant Donnerstag, 29.10.2026, Deutschland, Österreich, Schweiz
-Preis:        kostenlos spielbar, ohne Werbung
+Preis:        kostenlos spielbar; zum App-Start optionale Diamanten-Käufe und freiwillige Werbevideos mit Belohnung geplant
 Sprache:      Deutsch
 Mehrspieler:  Live-Rennen (bis acht Fahrer), Liga, Meistertafel für Betriebe; Online-Teile freiwillig, Schichten auch offline
 Zum Start:    Halloween-Event bis 09.11.2026
@@ -19,7 +19,7 @@ Das Spiel:
 - Rohr-Rennen und Liga: live gegen bis zu sieben andere, Raum per Link, Kanalbande als Ersatzgegner, Ligen von Bronze bis Meister.
 - Werkstatt und Ausbau: Euro und Schrott, Module, Köpfe verbessern mit Teilen aus Feierabend-Kisten.
 - Meistertafel: Betriebe treten gegeneinander an.
-- Die Legende im Rohr: Silberkroko in vier Revieren.
+- Die Legende im Rohr: Kalle spukt zu Halloween; Kroko-Jagd in vier Revieren ab 10.11. geplant.
 - Echte Einsätze: verschiedene Einsatzorte mit eigenen Aufträgen und Zielen.
 - Auch ohne Netz: Schichten laufen offline.
 

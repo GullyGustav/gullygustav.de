@@ -9,8 +9,8 @@
 <link rel="icon" type="image/png" href="/presse/assets/vorschau/favicon-64.png">
 <link rel="stylesheet" href="/presse/assets/seite.css">
 </head>
-<!-- SCHALTER Käufe: data-kaeufe="aus" (Start ohne Käufe) oder "an" (Diamanten-Kauf aktiv, siehe GG-Betrieb/MONETARISIERUNG.md). Erst auf "an" stellen, wenn Datenschutz und Spielregeln auf gullygustav.de angepasst sind. -->
-<body data-kaeufe="aus">
+<!-- data-kaeufe="geplant": angekuendigte Launch-Angebote; keine technische Aktivierung von Kaeufen oder Werbung. -->
+<body data-kaeufe="geplant">
 <a class="skip" href="#inhalt">Zum Inhalt</a>
 <header class="kopf">
   <div class="huelle">
@@ -72,6 +72,8 @@
     <details id="spielstand-weg">
       <summary>Mein Spielstand ist weg oder wurde zurückgesetzt. Was tun?</summary>
       <div class="antwort">
+        <p><strong>Neustart zum App-Launch:</strong> Die Launchfassung setzt den Testfortschritt beim ersten Start am oder nach dem 29. Oktober 2026 einmalig auf null. Die Online-Ranglisten werden zum Stichtag zurückgesetzt. Einstellungen und Spielerkennung bleiben erhalten.</p>
+        <p>Testfortschritt aus alten Sicherungscodes kann nach dem Stichtag nicht wieder eingespielt werden. Für spätere Spielstände gilt die normale Sicherung und Wiederherstellung.</p>
         <p>Der lokale Stand geht verloren, wenn du die App deinstallierst, die App-Daten löschst oder das Gerät zurücksetzt. Manche Systeme räumen den Speicher einer Anwendung außerdem nach längerer Nichtnutzung auf. Wenn du vorher einen Code gesichert hast, spiel ihn wie beim Umzug ein.</p>
         <p>Ohne Code können wir den Stand nicht wiederherstellen, weil wir ihn nicht auf unserem Server speichern. Sichere deshalb regelmäßig, vor allem vor Neuinstallationen und Gerätewechseln.</p>
       </div>
@@ -96,12 +98,12 @@
 
   <section id="kaeufe" style="padding-top:8px">
     <h2>Käufe und Erstattung</h2>
-    <p class="ohne-kaeufe">Gully Gustav ist kostenlos und enthält zum Start <strong>keine Käufe</strong> und keine Werbung. Diamanten gibt es im Spiel nur durch Spielen.</p>
-    <div class="nur-kaeufe">
+    <p>Zum geplanten App-Start am <strong>29. Oktober 2026</strong> sind freiwillige Diamanten-Käufe und optionale Werbevideos mit Belohnung vorgesehen. Gully Gustav bleibt kostenlos spielbar. Im Browser gibt es weder Käufe noch Werbevideos.</p>
+    <div class="kauf-hinweise">
       <details id="kaeufe-was">
         <summary>Was kann ich kaufen?</summary>
         <div class="antwort">
-          <p>Gekauft werden ausschließlich <strong>Diamanten</strong>, und zwar nur in der App (iPhone und Android), nicht im Browser:</p>
+          <p>Diese Diamanten-Pakete sind zum App-Start geplant, nur für iPhone und Android. Die Euro-Preise gelten für Deutschland und Österreich; in der Schweiz gilt der angezeigte Store-Preis:</p>
           <ul>
             <li>60 Diamanten – 1,99 €</li>
             <li>170 Diamanten – 4,99 €</li>
@@ -119,7 +121,7 @@
             <li><strong>iPhone:</strong> <a href="https://reportaproblem.apple.com" rel="noopener">reportaproblem.apple.com</a>, dort den Kauf auswählen und „Problem melden“ wählen. Hinweise von Apple: <a href="https://support.apple.com/de-de/118223" rel="noopener">support.apple.com/de-de/118223</a>.</li>
             <li><strong>Android:</strong> Hinweise von Google zur Erstattung: <a href="https://support.google.com/googleplay/answer/2479637" rel="noopener">support.google.com/googleplay/answer/2479637</a>.</li>
           </ul>
-          <p>Wenn du Diamanten schon ausgegeben hast, kann der Store die Erstattung ablehnen. Das entscheidet der Store.</p>
+          <p>Ob eine Erstattung möglich ist, entscheidet der jeweilige Store nach seinen Bedingungen.</p>
         </div>
       </details>
       <details id="kauf-fehlt">
@@ -131,6 +133,13 @@
             <li>Im Shop kurz warten und den Diamantenstand prüfen.</li>
             <li>Fehlen sie weiter, schreib uns mit <strong>Bestellnummer</strong> (Apple: Beleg-E-Mail, Google: Bestell-ID) und Kaufdatum an <a href="mailto:support@gullygustav.de?subject=Kauf%20nicht%20gutgeschrieben">support@gullygustav.de</a>. Wir prüfen jeden Fall einzeln.</li>
           </ol>
+        </div>
+      </details>
+      <details id="werbung">
+        <summary>Muss ich Werbung ansehen?</summary>
+        <div class="antwort">
+          <p>Werbevideos sind freiwillig und nur in den Apps vorgesehen. Die Belohnung wird vor dem Video angezeigt. Schichten bleiben auch ohne Werbevideo spielbar.</p>
+          <p>Vor der ersten Anzeigenanfrage fragt ein Einwilligungsdialog nach deiner Wahl. In der Launchfassung kannst du sie im Profil unter „Werbe-Einstellungen“ wieder ändern. Mehr dazu steht in der Datenschutzerklärung.</p>
         </div>
       </details>
       <p>Was mit Käufen an Daten verarbeitet wird, steht in der <a href="https://gullygustav.de/recht/#datenschutz" rel="noopener">Datenschutzerklärung</a>.</p>
